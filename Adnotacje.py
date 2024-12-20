@@ -77,7 +77,7 @@ def compare_annotations(file_bakta, file_prokka):
     print(f"Liczba genów polimerazy: {polymerase_prokka}")
 
 
-file_bakta = "C:/Users/DELL 5470/Downloads/assembly.gbff"
-file_prokka = "C:/Users/DELL 5470/Downloads/assembly.gbk"
+file_bakta = "assembly.gbff"
+file_prokka = "assembly.gbk"
 
 compare_annotations(file_bakta, file_prokka)
